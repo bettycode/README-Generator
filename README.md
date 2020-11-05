@@ -8,7 +8,7 @@
 When prompted for information about your application repository, a quality, professional README.md is generated with the title of 
 your project and sections entitled Description,Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
-your project title is displayed as the title of the README.
+Your project title is displayed as the title of the README.
 
 When you enter a description, installation instructions, usage information, contribution guidelines, and test instructions, then the 
 information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests.
@@ -59,4 +59,5 @@ To run tests, you need to run the following command: NONE
 
 # Questions
 
-If you have any questions about the repo, open an issue or contact BB directly BB@B.COM.
+If you have any questions about the repo,pleas open an issue.
+Or contact @bettycode using this Email: betty.haile.us@gmail.com

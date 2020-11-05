@@ -45,7 +45,9 @@ To run tests, you need to run the following command: ${data.Test}
 
 # Questions
 
-If you have any questions about the repo, open an issue or contact ${data.UserName} directly ${data.Email}.
+If you have any questions about the repo, pleas open an issue.
+
+Or contact ${data.UserName} using this Email: ${data.Email}.
 `;
 }
 
