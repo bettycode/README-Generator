@@ -1,3 +1,6 @@
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
+
 // array of questions for user
 const questions = [
     {
@@ -60,14 +63,19 @@ function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, data, function(err) {
         if (err) {
-          return console.log(err);
+            return console.log(err);
         }
         console.log ("Success!");
-      })
+    })
 }
 
 // function to initialize program
 function init() {
+    inquirer.prompt(questions)
+    .then(function(data){
+        writeToFile("README-GENERATOR" ,generateMarkdown(data));
+    })
+
 
 }
 
