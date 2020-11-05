@@ -37,7 +37,7 @@ This project is license under the ${data.License} license.
 
 # Contributing
 
-​Contributors: ${data.Contributor}
+​Contributors: ${data.Contribution}
 
 # Tests
 

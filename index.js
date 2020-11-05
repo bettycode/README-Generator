@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
+const fs = require("fs"); 
 
 // array of questions for user
 const questions = [
@@ -11,27 +12,27 @@ const questions = [
     {
         type: "input",
         message: `Please enter a description of your project.`,
-        name: "description"
+        name: "Description"
     },
     {
         type: "input",
         message: "What are the installation instructions for this project. Write NONE if no instructions",
-        name: "installation"
+        name: "Installation"
     },
     {
         type: "input",
         message: "How would you like your application to be used?",
-        name: "usage information"
+        name: "Usage"
     },
     {
         type: "input",
         message: "Who contributed on this project?",
-        name: "contribution guidelines"
+        name: "Contribution"
     },
     {
         type: "input",
         message: "what are the Test Instructions?",
-        name: "test"
+        name: "Test"
     },
     {
         type: "checkbox",
@@ -42,18 +43,18 @@ const questions = [
             "ISC",
             "GNU GPLv3"
         ],  
-        name: "license"
+        name: "License"
     },
     
     {
         type: "input",
         message: "What is your GitHub username",
-        name: "username"
+        name: "UserName"
     },
     {
         type: "input",
         message: "What is your email address",
-        name: "email"
+        name: "Email"
     },
 
 ];
