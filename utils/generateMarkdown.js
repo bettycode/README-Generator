@@ -3,7 +3,7 @@ function generateMarkdown(data) {
   return `
 # ${data.title}
 
-[![GitHub](https://img.shields.io/github/license/bettycode/README-Generator?logo=MIT&style=plastic)](https://github.com/${data.UserName}/${data.Title})
+[![GitHub](https://img.shields.io/github/license/bettycode/README-Generator?logo=MIT&style=plastic)](https://github.com/${data.UserName}/${data.title})
 
 # Description
 
